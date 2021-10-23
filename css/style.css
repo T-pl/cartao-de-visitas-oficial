@@ -16,7 +16,7 @@
     place-items: center;
   }
   main {
-    background: url(/imagens/background-oficial.svg);
+    background: url(../imagens/background-oficial.svg);
     width: 375px;
     height: 812px;
   }
