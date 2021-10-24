@@ -18,7 +18,7 @@
   main {
     background: url(../imagens/background.svg) no-repeat center/cover;
     width: 100vw;
-    /* min-height: 812px; */
+    min-height: 812px;
     height: 240vh; 
   }
   .container {
@@ -27,6 +27,7 @@
     margin-right: auto;
     text-align: center;
     color: var(--grey);
+    border-radius:  5px;
   }
   
   .avatar {
@@ -75,3 +76,24 @@
     gap: 0.5rem;
     justify-content: center;
   }
+
+.icones-das-redes{
+    border-radius: 50px;
+  }
+
+.icones-das-redes:hover{
+  transform: scale(1.1);
+  transition-duration: 0.25s;
+}
+  /* @media (min-width: 960px) {
+    body {
+      background: #121214;
+    }
+  
+    main {
+      background: url(../imagens/background.svg) no-repeat center/cover;
+      width: 100vw;
+      min-height: 812px;
+      height: 100vh;
+    }
+  } */

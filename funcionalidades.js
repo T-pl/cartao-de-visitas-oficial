@@ -4,7 +4,7 @@ const linksSocialMedias = {
     youtube: "tiago4849",
     facebook: "tiago.fqu",
     instagram: "camus_rebelde",
-    linkedin: "tiagofqu"
+    linkedin: "in/tiago-ferreira-dev-web"
 }
 
 function changeLinksSocialMedias() {
