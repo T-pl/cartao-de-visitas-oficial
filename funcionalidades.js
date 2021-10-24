@@ -1,14 +1,20 @@
 
-const socialMedias = {
+const linksSocialMedias = {
     github: "T-pl",
-    youtube: "Tiago4849",
+    youtube: "tiago4849",
     facebook: "tiago.fqu",
-    instagram = "camus_rebelde",
-    twitter = "tiagofqu"
+    instagram: "camus_rebelde",
+    linkedin: "tiagofqu"
 }
 
+function changeLinksSocialMedias() {
+    for (let li of socialLinks.children) {
+        const social = li.getAttribute('class')
 
-function showMeShomehing(texto) {
+        li.children[0].href = `https://${social}.com/${linksSocialMedias[social]}`
+
+    }
+
 }
 
-showMeShomehing()
+changeLinksSocialMedias()
