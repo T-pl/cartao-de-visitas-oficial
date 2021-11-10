@@ -1,6 +1,6 @@
 
 const linksSocialMedias = {
-    linkedin: "tiago-ferreira-dev-web",
+    linkedin: "/in/tiago-ferreira-dev-web",
     github: "T-pl",
     youtube: "tiago4849",
     facebook: "tiago.fqu",
