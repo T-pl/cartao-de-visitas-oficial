@@ -12,7 +12,6 @@ function changeLinksSocialMedias() {
         const social = li.getAttribute('class')
 
         li.children[0].href = `https://${social}.com/${linksSocialMedias[social]}`
-        // https://linkedin.com/in/tiago-ferreira-dev-we
 
     }
 

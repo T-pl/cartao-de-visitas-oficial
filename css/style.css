@@ -18,12 +18,11 @@ body {
   background: rgb(22, 22, 22);
 }
 
-main {
+#principal {
   background: url(../imagens/background.svg) no-repeat center/cover;
-  height: 100vh;
+  height: 80vh;
   width: 375px;
-  min-height: 812px;
-
+  /* min-height: 812px; */
 }
 
 /* .tarja {
@@ -49,13 +48,13 @@ main {
   margin-right: auto;
   text-align: center;
   color: var(--grey);
-  border-radius: 5px;
 }
 
 .avatar {
   width: 10rem;
   margin: 11.5rem auto 0;
   position: relative;
+  margin-top: 55px;
 }
 
 .avatar .selo {
