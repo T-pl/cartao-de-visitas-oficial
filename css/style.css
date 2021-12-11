@@ -51,10 +51,10 @@ body {
 }
 
 .avatar {
-  width: 10rem;
-  margin: 11.5rem auto 0;
+  /* width: 10rem; */
+  margin: 3.5rem auto 0;
   position: relative;
-  margin-top: 55px;
+  /* margin-top: 55px; */
 }
 
 .avatar .selo {
